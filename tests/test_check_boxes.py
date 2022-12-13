@@ -24,8 +24,8 @@ class TestCheckBoxes:
         self.checkbox.select_checkbox('Downloads')
         self.checkbox.check_results('Downloads')
 
-        self.checkbox.select_checkbox('documents')
-        self.checkbox.check_results('documents')
+        self.checkbox.select_checkbox('Documents')
+        self.checkbox.check_results('Documents')
 
-        self.checkbox.select_checkbox('desktop')
-        self.checkbox.check_results('desktop')
+        self.checkbox.select_checkbox('Desktop')
+        self.checkbox.check_results('Desktop')

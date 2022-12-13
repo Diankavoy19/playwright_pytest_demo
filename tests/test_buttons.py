@@ -1,5 +1,5 @@
 import pytest
-
+import allure
 from pages.buttons_page import Buttons
 from pytest import mark
 from utils.tools import take_screenshot
