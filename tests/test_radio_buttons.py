@@ -11,7 +11,7 @@ class TestRadioButtons:
         self.page.set_viewport_size(viewport_size={'width': 1920, 'height': 1080})
         self.radio = RadioButton(self.page)
 
-        self.page.goto('https://demoqa.com/radio-button', wait_until='networkidle')
+        self.page.goto('https://demoqa.com/radio-button')
 
     def test_radio_buttons(self, test_setup):
         """ Test to verify the radio buttons on the page
