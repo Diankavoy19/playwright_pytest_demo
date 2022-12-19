@@ -1,7 +1,7 @@
 import pytest
 
 from pages.text_box_page import TextBox
-from utils.test_data import Data
+from data.test_data import Data
 
 
 class TestTextBoxes:

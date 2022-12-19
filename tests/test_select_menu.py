@@ -1,7 +1,7 @@
 import pytest
 
 from pages.select_menu_page import SelectMenu
-from utils.test_data import Data
+from data.test_data import Data
 
 
 class TestSelect:
